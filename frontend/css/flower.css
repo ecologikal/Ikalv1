@@ -1,0 +1,360 @@
+body{
+	background:url("images/bg.png");
+	color:#fff;
+}
+#flowercontainer {
+
+    left: 66px;
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    width: 250px;
+    z-index: 100;
+}
+
+#flower {
+
+    height: 280px;
+    margin-left: -27px;
+    width: 276px;
+	padding-bottom:24px;
+}
+div.get{
+	display:none;
+}
+flower {
+font-family: "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+width: 460px;
+display: block;
+margin-left: 355px;
+position: absolute;
+top: 70px;
+}
+flower div {
+margin-bottom: 4px;
+margin-left: 0;
+width: 460px;
+float: left;
+}
+h1#title {
+position: fixed;
+background: url("images/bg.png");
+padding: 16px;
+width: 100%;
+z-index: 1;
+top: -21px;
+font-family:'Helvetica Neue';
+font-size:28px;
+text-shadow: 1px 1px 2px black;
+text-align:center;
+}
+flower path{
+	cursor:pointer;
+}
+flower div skill{
+	display:none;
+}
+flower div span#petalName{
+	padding-left:40px;
+}
+#petalName:hover{
+	cursor:pointer;
+}
+petalicon{
+
+	background:url("images/icons_sprite.png") no-repeat left;
+	height: 28px;
+	margin-left: 4px;
+	margin-top: 3px;
+	position: absolute;
+	width: 30px;
+}
+flower div.building petalicon{
+	background-position: -75px -101px;
+}
+flower div.communitygov petalicon{
+	background-position: -75px -76px;
+}
+flower div.finance petalicon{
+	background-position:-73px 1px;
+}
+flower div.land petalicon{
+	background-position: -102px -25px;
+}
+flower div.culture petalicon{
+	background-position: -73px -25px;
+}
+flower div.tools petalicon{
+	background-position: -74px -51px;
+}
+flower div.health petalicon{
+	background-position: -101px 2px;
+}
+flower div.building #petalName, flower div.construction skill grade{
+	background:#ff3333;
+	color:#fff;
+}
+flower div.communitygov #petalName , flower div.communitygov skill grade{
+	background:#ff9933;
+	color: #fff;
+}
+flower div.land #percSkills{
+	color:#222;
+}
+flower div.finance #petalName, flower div.finance skill grade{
+	background:#FFE91D;
+	color:#222;
+}
+flower div.finance #percSkills{
+	color:#222;
+}
+flower div.land #petalName, flower div.land skill grade{
+	background:#A4DE00;
+	color:#222;
+}
+flower div.culture #petalName, flower div.culture skill grade{
+	background:#33cccc;
+	color: #fff;
+}
+flower div.tools #petalName, flower div.tools skill grade{
+	background:#403BDC;
+	color: #fff;
+}
+flower div.health #petalName, flower div.health skill grade{
+	background:#cc3399;
+	color: #fff;
+}
+#petalName{
+	font-size:16px;
+	font-weight:bold;
+	padding:7px;
+	display:block;
+	background:#333;
+}
+#percSkills {
+    color: #FFFFFF;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    right: 10px;
+    margin-top: -63px;
+    padding: 7px;
+    position: absolute;
+}
+#noSkills{
+	display:block;
+	padding:7px;
+	background:#000;
+	font-size:11px;
+}
+#hide{
+	position:absolute;
+	
+	margin:-22px 5px 0 0;
+	margin-left:255px;
+	font-weight:bold;
+	font-size:12px;
+}
+#hide:hover{
+	cursor:pointer;
+	color:#ccc;
+}
+#showreferences{
+	color:#3399ff;
+
+	font-weight:bold;
+	font-size:11px;
+	line-height:20px;
+	float:right;
+}
+#showreferences:hover{
+	cursor:pointer;
+}
+
+skill {
+
+
+    color: #999;
+    display: block;
+    padding:10px;
+}
+skill name {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px 0 10px 0;
+    clear: both;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 7px;
+
+}
+skill grade {
+background: none repeat scroll 0 0 white;
+
+right: 0;
+font-size: 14px;
+font-weight: bold;
+margin-left: 230px;
+margin-top: -30px;
+padding: 3px 7px;
+position: absolute;
+border-radius: 10px 0 10px 0;
+}
+skill description{
+	display:block;
+	padding:10px 10px 5px 10px;
+	font-size:12px;
+}
+skill reference {
+    display: block;
+    margin-left: 52px;
+    min-height: 50px;
+    width: 81%;
+margin-top:10px;
+}
+skill #gradeform{
+	margin:10px;
+	width:100%;
+	line-height:14px;
+	font-size:14px;
+}
+skill button{
+	display:block;
+	clear:both;
+	margin:10px;
+	height:30px;
+	line-height:25px;
+	text-align:center;
+	border-radius:10px 0;
+}
+skill select, skill textarea{
+	width:260px;
+	margin:5px 0;
+}
+skill #gradeform button{
+	margin:10px 0px;
+}
+avatar {
+    background: none repeat scroll 0 0 #888888;
+    height: 40px;
+    margin-left: -46px;
+    padding: 3px;
+    position: absolute;
+    width: 40px;
+border-radius:8px 0 8px 0;
+}
+memberavatar{
+	background:#ccc url("images/avatar_mini2.png");
+	width:35px;
+	height:35px;
+	margin:0 0 2px 2px;
+	float:left;
+	border:2px solid #fff;
+	box-shadow: 0 0 2px #111;
+	overflow:hidden;
+}
+creator memberavatar{
+	position:absolute;
+}
+div.element:hover membernametooltip{
+	display:block;
+}
+membernametooltip{
+
+	position:absolute;
+	background:#333;
+	height:14px;
+	padding:3px 6px;
+	margin-top:-30px;
+	margin-left:-40px;
+	font-size:10px;
+	clear:both;
+	font-weight:bold;
+}
+membernametooltip:after{
+	display:block;
+	width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+
+      border-top: 20px solid #f00;
+}
+avatar img {
+    box-shadow: 1px 1px 2px #555555;
+    margin: 2px 0 0 2px;
+}
+reference userid{
+	display:none;
+}
+reference username {
+    background: none repeat scroll 0 0 #888888;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+	border-radius: 0 0 8px 0;
+}
+reference description{
+	display:block;
+	font-size:10px;
+	padding:6px;
+}
+petaltooltip{
+	width:200px;
+	height:100px;
+	background:#000;
+	position:absolute;
+}
+points{
+	position:relative;
+	display:block;
+	margin-left:-75px;
+
+}
+actionpoints, reactionpoints {
+
+    border: 2px solid #FFFFFF;
+
+    box-shadow: 0 0 2px #000000;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -20px;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+	
+}
+actionpoints{
+	border-radius:0px 0px 7px 7px;
+	background:#27A6DE;
+	margin-top:25px;
+}
+reactionpoints{
+	border-radius:7px 7px 0 0;
+	background:#EC2487;
+	margin-top:5px;
+}
+path:hover{
+	cursor:pointer;
+}
+refgrade{
+	font-size:11px;
+	background: none repeat scroll 0 0 #FFFFFF;
+
+    box-shadow: 1px 1px 2px #555;
+    float: right;
+    font-weight: bold;
+    margin-left: 193px;
+    margin-top: -45px;
+    padding: 3px;
+    position: absolute;
+	border-radius: 5px 0 5px 0;
+}

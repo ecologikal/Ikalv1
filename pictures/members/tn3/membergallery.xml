@@ -1,0 +1,12 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Gallery title</title>
+		<description>Gallery description</description>
+		<file_root>images/</file_root>
+		<thumb_src>thumbs/1.jpg</thumb_src>
+		<images>
+			<!-- images will be added here -->
+		</images>
+	</gallery>
+</tn2>

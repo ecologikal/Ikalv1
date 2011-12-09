@@ -1,0 +1,229 @@
+index{
+	width:770px;
+	margin:auto;
+	clear:both;
+	display:block;
+	font-family:'AllerLightRegular';
+	text-shadow:rgba(0, 0, 0, 1) 0 -2px -2px;
+}
+toolbar div.icon{
+	float:left;
+}
+maincontent{
+	display:block;
+	width:100%;
+	height:925px;
+
+}
+testimonials{
+	display:block;
+	width:100%;
+	font-size:14px;
+	top:730px;
+	position:relative;
+}
+testimonials h2{
+	width:100%;
+	text-align:center;
+}
+testimonial{
+	width:31%;
+	float:left;
+	margin-left:10px;
+}
+testimonial picture{
+	display:block;
+	width:70px;
+	height:68px;
+	border:5px solid #fff;
+	float:left;
+	margin:0 10px 10px 0px;
+	box-shadow:0 0 8px #000;
+	-webkit-box-shadow:0 0 8px #000;
+	-moz-box-shadow:0 0 8px #000;
+}
+testimonial description{
+	text-align:left;
+	margin:7px;
+	font-style:italic;
+}
+testimonial author{
+	font-style:normal;
+	font-size:11px;
+	float:right;
+	clear:both;
+	line-height:16px;
+
+	background:#444;
+	padding:7px;
+	text-align:right;
+	text-shadow:none;
+	width:100px;
+}
+headerindex{
+    color: #FFFFFF;
+    height: 41px;
+    margin: 0;
+    padding: 7px 0 0;
+    position: absolute;
+    width: 313px;	
+	top:0;
+}
+logoindex {
+    -moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+    background: url("images/logo.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 63px;
+    margin-left: -24px;
+    width: 307px;
+}
+index h1, index h2{
+	font-family: 'SoftCompoundRegular';
+    font-weight:normal;
+	font-size:48px;
+	text-shadow:rgba(0, 0, 0, .6) 0 -3px 3px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+index h2{
+	font-size:45px;
+}
+index h2.play {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+	margin-left: 470px;
+	margin-top: 94px;
+	position: absolute;
+	width: 320px;
+}
+index h2.kins{
+	-webkit-transform: rotate(-5deg); 
+	-moz-transform: rotate(-5deg);
+	transform:rotate(-5deg);
+	    margin-top: 15px;
+		position: absolute;
+		text-align: center;
+		width: 290px;
+}
+index mainquote{
+	font-size:27px;
+	font-family: 'AllerLightRegular';
+	text-shadow:rgba(0, 0, 0, .6) 0 -2px 2px;
+	font-weight:bold;
+    
+}
+index gamequote {
+    display: block;
+    margin-left: 300px;
+    position: absolute;
+    top: 641px;
+    width: 460px;
+}
+videoimage {
+background: url('images/videoimage.png');
+width: 400px;
+height: 375px;
+display: block;
+
+}
+kinimage {
+background: url('images/kinimage.png');
+width: 280px;
+height: 272px;
+display: block;
+position: absolute;
+margin-left: 460px;
+margin-top: 60px;
+}
+mapimage{
+	background: url('images/mapimage.png');
+	width: 400px;
+	height: 375px;
+	display: block;
+	position:absolute;
+	top:950px;
+	margin-left:30px;
+}
+videoimage:hover{
+	cursor:pointer;
+}
+
+index kinsquote {
+display: block;
+position: absolute;
+top: 854px;
+width: 300px;
+}
+arrow1 {
+background: url("images/arrow1.png");
+display: block;
+height: 400px;
+position: absolute;
+top: 587px;
+width: 418px;
+margin-left: 53px;
+-webkit-transform: rotate(8deg);
+-moz-transform: rotate(8deg);
+transform: rotate(8deg);
+}
+
+
+arrow2 {
+background: url("images/arrow2.png");
+display: block;
+height: 262px;
+position: absolute;
+top: 343px;
+width: 384px;
+margin-left: 400px;
+}
+arrow3 {
+background: url("images/arrow3.png");
+display: block;
+height: 264px;
+position: absolute;
+top: 150px;
+width: 308px;
+margin-left: 370px;
+}
+#wrapperindex{
+	width:870px;
+	clear:both;
+	margin:100px auto;
+}
+
+accountindex {
+    margin-left: 665px;
+    position: absolute;
+    top: 4px;
+    width: 154px;
+    z-index: 1008;
+}
+index button.green{
+
+	font-weight:bold;
+	text-transform:none;
+	font-size:33px;
+	padding:20px 30px;
+	margin:40px;
+	position:absolute;
+	border-radius:15px;
+}
+travelquote{
+	display:block;
+	width:460px;
+	position:absolute;
+	top:1320px;
+}
+travelsection h2 {
+position: absolute;
+top: 959px;
+margin-left: 449px;
+width: 350px;
+-webkit-transform: rotate(-4deg);
+-moz-transform: rotate(-4deg);
+transform: rotate(-4deg);
+}

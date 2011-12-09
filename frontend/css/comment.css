@@ -1,0 +1,16 @@
+textarea{
+	width:100%;
+	max-width:100%;
+	height:45px;
+	border:2px solid #ccc;
+}
+button{
+	background-color: #CCC;
+	padding: 5px 12px;
+	border-radius: 5px;
+	font-size: 13px;
+	color: #777;
+	text-shadow: -1px 0px 0 #DDd;
+	float:right;
+	margin-top:15px;
+}

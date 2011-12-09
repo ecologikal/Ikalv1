@@ -1,0 +1,84 @@
+#littlemap{
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+.tripitem {
+background: #333;
+border-bottom: 1px solid #444;
+padding: 15px;
+height: 100px;
+
+}
+.tripitem:hover{
+	background:#3a3a3a;
+}
+span.delete{
+	float:right;
+	margin-right:-5px;
+}
+.back{
+	font-size:12px;
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+.tripinfo{
+	margin-left: 110px;
+}
+.address{
+	line-height: 28px;
+	font-size: 17px;
+	color: #CCC;
+	font-family: Helvetica Neue;
+}
+.title{
+	font-family: Helvetica Neue;
+	font-size: 18px;
+}
+.dates {
+color: #CCC;
+font-size: 11px;
+line-height: 14px;
+float: right;
+font-style: italic;
+margin-right: 11px;
+}
+.description{
+	font-size: 12px;
+	padding: 5px 0;
+	color:#999;
+}
+#friends{
+	float:right;
+}
+#friendsbar {
+position: absolute;
+top: 38px;
+right: 138px;
+}
+.tripstops {
+position: absolute;
+right: 24px;
+margin-top: 80px;
+color: white;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: bold;
+}
+div.tripstop {
+width: 635px;
+background: #333;
+overflow: hidden;
+padding: 10px;
+}
+.tripstop h3{
+	padding:10px;
+	margin:0;
+}
+.tripstop:hover h3{
+background:#444;
+}
+div.stopcontent{
+	display:none;
+}

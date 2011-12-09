@@ -1,0 +1,8 @@
+[08-Dec-2011 17:12:12] PHP Warning:  mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'greenble_ecologi'@'localhost' (using password: YES) in /home1/greenble/public_html/ecologikalv1/_config/dbconnection.php on line 9
+[08-Dec-2011 17:12:12] PHP Notice:  Access denied for user 'greenble_ecologi'@'localhost' (using password: YES) in /home1/greenble/public_html/ecologikalv1/_config/dbconnection.php on line 9
+[08-Dec-2011 17:12:12] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home1/greenble/public_html/ecologikalv1/_config/dbconnection.php on line 10
+[08-Dec-2011 17:12:12] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home1/greenble/public_html/ecologikalv1/backend/_registration/memberdata.php on line 30
+[08-Dec-2011 17:12:35] PHP Warning:  mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'greenble_ecologi'@'localhost' (using password: YES) in /home1/greenble/public_html/ecologikalv1/_config/dbconnection.php on line 9
+[08-Dec-2011 17:12:35] PHP Notice:  Access denied for user 'greenble_ecologi'@'localhost' (using password: YES) in /home1/greenble/public_html/ecologikalv1/_config/dbconnection.php on line 9
+[08-Dec-2011 17:12:35] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home1/greenble/public_html/ecologikalv1/_config/dbconnection.php on line 10
+[08-Dec-2011 17:12:35] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home1/greenble/public_html/ecologikalv1/backend/_registration/memberdata.php on line 30

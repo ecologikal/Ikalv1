@@ -1,0 +1,375 @@
+
+/* BASIC INFO STYLES */
+#iframe{
+	font-size: 14px;
+}
+.rightbar{
+	width:240px;
+	float:right;
+}
+.rightcontent div.block{
+	width:600px;
+}
+.rightcontent div.location, .rightcontent div.year{
+	width:100%;
+	margin-bottom:5px;
+}
+.rightcontent .description {
+width: 371px;
+margin: 0;
+background:none;
+}
+.leftbar div{
+	margin-right:20px;
+}
+.rightcontent div{
+	width:200px;
+	float:left;
+	line-height:21px;
+}
+.rightcontent .icon{
+	width:30px;
+	height:30px;
+	float:left;
+
+}
+#basicinfo {
+width: 200px;
+float: right;
+}
+#people {
+display: block;
+width: 100%;
+float: left;
+}
+#people .icon {
+    height: 25px;
+    margin-right: 5px;
+    width: 25px;
+}
+#people h3{
+	margin:3px;
+	clear:both;
+}
+.avatars {
+width: 100%;
+clear: both;
+display: block;
+min-height: 41px;
+}
+#facilities{
+	
+}
+#activities{
+	
+}
+#spirituality{
+	
+}
+#diet{
+	
+}
+#ageorientation{
+	
+}
+#ageorientation div{
+	width:30px;
+	height:30px;
+}
+#rules{
+	
+}
+/* REVIEWS SECTION STYLES*/
+#reviews {
+font-size: 12px;
+position: absolute;
+line-height: 14px;
+width: 230px;
+left: 10px;
+top: 12px;
+}
+
+#commentsection.reviews {
+    height: 270px;
+    margin-bottom: 0;
+    margin-left: 240px;
+    margin-top: 0;
+    width: 590px;
+}
+div.grade{
+	padding:3px 7px;
+	font-weight:bold;
+	background:#000;
+	position:absolute;
+	right:0;
+	margin-top:-4px;
+	text-shadow:1px -1px 1px #000;
+		
+}
+#reviews .icon{
+	width:30px;
+	height:30px;
+	float:right;
+}
+#reviews .barcontainer {
+width: 100%;
+border-radius: 5px;
+}
+#reviews .barcontainer .value{
+	background:#44cc44;
+	text-align:center;
+	border-radius: 5px 0 0 5px;
+	font-size:10px;
+	text-indent:-10000px;
+}
+#reviews .barcontainer:hover .value{
+	background:#44dd33;
+}
+.overall{
+	font-weight:bold;
+}
+products{
+	width:48%;
+	display:block;
+	float:left;
+}
+services{
+	width:48%;
+	display:block;
+	float:right;
+}
+product,service{
+	display:block;
+	min-height:120px;
+}
+.name{
+	font-weight:bold;
+	font-size:15px;
+	margin:10px 0;
+}
+.picture{
+	float:left;
+	margin:10px 10px 10px 0px;
+	
+}
+.picture img{
+	width:80px;
+}
+.description{
+	font-size:13px;
+	color:#ccc;
+	font-family:AllerRegular;
+}
+.price {
+font-size: 19px;
+font-weight: bold;
+padding: 5px;
+float:right;
+margin-top: 5px;
+text-indent:20px;
+margin-right:10px;
+}
+.price .icon {
+display: block;
+float: left;
+width: 20px;
+height: 20px;
+background-position: -419px -281px;
+margin-right: 5px;
+}
+button{float:right;margin:10px}
+
+/**WORKSHOPs**/
+
+workshop {
+display: block;
+width: 100%;
+border: 2px solid #222;
+background: #333;
+height: 52px;
+overflow: hidden;
+float: left;
+}
+workshop .name {
+font-weight: bold;
+font-size: 15px;
+margin: 10px 0;
+width: 60%;
+float: left;
+text-shadow: 0 -1px 1px #444;
+}
+workshop .description {
+width: 635px;
+float: left;
+position: relative;
+height: 200px;
+overflow: auto;
+margin-left:20px;
+}
+workshop .icon{
+	float:right;
+	margin:10px;
+}
+.icon.bookingicon{
+	float:left;
+	margin:0;
+	margin-right:10px;
+}
+workshop button a{
+	line-height:20px;
+}
+button.book {
+margin-left: 16px;
+margin-right: -10px;
+}
+#commentsection {
+margin-top: 10px;
+height: 220px;
+float: left;
+width: 655px;
+margin-left: 188px;
+}
+#reactionsection {
+position: relative;
+right: 17px;
+margin-top: -80px;
+width: 375px;
+float: right;
+height: 40px;
+}
+.dharmasection {
+width: 161px;
+height: 40px;
+margin: 0px 10px 8px 12px;
+display: block;
+float: left;
+}
+workshop button.comment {
+margin: 0;
+padding: 0;
+
+padding: 6px 18px;
+}
+.dharmasection div.rp {
+margin:0;
+position: relative;
+float: left;
+}
+.dharmasection #reactionpoints{
+	margin-top:5px;
+}
+workshop .titlebar {
+line-height: 20px;
+height: 53px;
+margin-top: -10px;
+padding: 4px 14px;
+background:#222;
+border-bottom:1px solid #333;
+}
+.titlebar:hover, .titlebar div:hover{
+	cursor:pointer;
+}
+workshop .dates {
+position: absolute;
+margin-top: 34px;
+color: #EEE;
+font-family: AllerRegular;
+font-size: 12px;
+text-shadow: 1px -1px 1px #444;
+margin-left: 14px;
+}
+workshop .triangle {
+float: left;
+margin-top: 8px;
+margin-left: -5px;
+margin-right:10px;
+}
+workshop .basicinfo{
+	height:140px;
+	width:170px;
+	float:left;
+}
+.picture{
+	margin:13px;
+	
+}
+.picture img{
+	width:160px;
+}
+workshop .invited {
+left: 127px;
+height: 140px;
+margin-left: 15px;
+font-size: 11px;
+height: 48px;
+line-height: 10px;
+}
+.invited a{
+	font-size:16px;
+}
+workshop .basicinfo img{
+
+}
+/** VOLUNTEER VACANCIES **/
+h3.novacancies{
+	font-size:17px;
+}
+volunteervac h3{
+	padding: 10px 8px;
+	background: #333;
+	font-family: Helvetica Neue;
+}
+volunteervac h3:first{
+	margin-top:-10px;
+}
+volunteervac .description{
+	padding:0px 10px;
+	height:240px;
+}
+volunteervac #commentsection{
+	height:180px;
+}
+application textarea {
+width: 387px;
+padding: 10px;
+font-size: 13px;
+font-weight: bold;
+color: #999;
+margin-left: 31px;
+line-height: 16px;
+min-height: 66px;
+}
+application memberavatar{
+	float:right;
+	margin-right:30px;
+}
+div.fields{
+	margin-left:30px;
+}
+application div.checkboxes {
+width: 227px;
+height: 40px;
+margin-top: 18px;
+float: left;
+margin-left: 29px;
+}
+div.registration{
+	width:250px;
+	margin-left:30px;
+}
+div.registration input{
+	margin-top:10px;
+	width:240px;
+}
+application .vacancyname{
+	margin-left:30px;
+	font-size:24px;
+
+}
+application .dates{
+	margin-left:30px;
+	font-size:18px;
+}
+div#iframe{
+	color:#ccc;
+}

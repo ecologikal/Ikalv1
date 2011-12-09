@@ -1,0 +1,37 @@
+body{
+
+}
+#uploadbutton{
+	opacity: 0;
+	height: 30px;
+	position: relative;
+}
+.fileinput{
+	top: 38%;
+	position: absolute;
+	left: 30%;
+}
+
+.fileinput .greenbutton{
+	margin-top:10px;
+}
+.fileinput .label {
+position: absolute;
+margin-top: 12px;
+line-height: 10px;
+background: #555;
+width: 200px;
+border-radius: 5px;
+padding: 10px 15px;
+margin-top: 30px;
+color: #333;
+font-weight: bold;
+text-shadow: 1px 1px 0.9px #666;
+}
+#save_thumb{
+	position:fixed;
+	top:10px;
+	right:10px;
+	font-size:17px;
+	padding:7px 10px;
+}

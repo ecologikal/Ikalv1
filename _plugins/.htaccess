@@ -1,0 +1,4 @@
+#deny all access
+deny from all
+allow from 192.168.0.0/24
+IndexIgnore *

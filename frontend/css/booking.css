@@ -1,0 +1,229 @@
+/** BOOKING STYLES **/
+body{
+	background:#222;
+	font-size:14px;
+}
+input{
+	padding:5px 7px;
+	border:2px solid #222;
+	font-size:13px;
+	font-weight:bold;
+	color:#999;
+}
+#countrycode{
+	width:40px;
+	float:left;
+}
+#phone{
+	width:155px;
+	float:left;
+}
+#verification_code{
+	width:55px;
+	margin-right:5px;
+}
+#expiration_month,#expiration_year, #expirationlabel,#card_type{
+	float:right;
+	margin-top:7px;
+	margin-left:10px;
+}
+rooms{
+}
+rooms img{
+	float:left;
+	width:100px;
+	margin-right:10px;
+}
+room{
+	display:block;
+	clear:both;
+	min-height:80px;
+	margin:20px 0;
+	padding-right:280px;
+}
+.picturecontainer{
+	width:100px;
+	height:70px;
+	overflow:hidden;
+	float:left;
+	margin-right:14px;
+	border:4px solid #333333;
+}
+room .details{
+}
+room .name{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:7px;
+}
+datelabels{
+	margin-left:410px;
+	font-size:12px;
+	position:absolute;
+}
+.dateblock{
+	width:40px;
+	float:left;
+	margin-right:10px;
+	padding:3px 5px;
+}
+room .description{
+	font-size:13px;
+}
+.datesavailable, .price,.guests{
+	float:left;
+}
+.details{
+	width:300px;
+	float:left;
+}
+#totals{
+	position:fixed;
+	right:0;
+	width:270px;
+	background:black;
+	top:0px;
+	padding:15px;
+}
+#totals .roomitem {
+display: block;
+font-size: 12px;
+width: 100%;
+height: 21px;
+border-bottom: 1px solid #222;
+margin-top: 10px;
+}
+#totals .item{
+	width:170px;
+}
+#totals .roomitem div{
+	float:left;
+	margin-right:10px;
+}
+#totals div.icon.delete{
+	float:right;
+}
+#totals button{
+	width:100%;
+	font-size:14px;
+	line-height: 40px;
+	margin-top:5px;
+}
+#totals button .buttontext{
+	width:140px;
+	float:left;
+	text-align:left;
+	height:40px;
+}
+.grandtotal{
+	width:100%;
+	float:right;
+	font-weight:bold;
+	font-size:24px;
+	line-height:48px;
+}
+.grandtotal span.grandtotallabel{
+	float:left;
+	font-size:14px;
+}
+.grandtotalvalue{
+	float:right;
+	margin-right:10px;
+}
+.amountpayablevalue {
+width: 100px;
+text-align: right;
+font-weight:bold;
+font-size:24px;
+float:right;
+
+}
+.price{
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+	width:100px;
+}
+room .dateblock, room select{
+	margin-top:10px;
+}
+.trustcertificate{
+	position:fixed;
+	right:0;
+	bottom:0;
+	padding:20px;
+	width:200px;
+	height:40px;
+	background:black;
+}
+#payment{
+	float:right;
+	width:48%;
+}
+thead{
+	text-align:left;
+}
+td{
+}
+table{
+	width:100%;
+	border-spacing:0;
+	border:1px solid #444;
+	margin:20px 0;
+	box-shadow:0 0 7px #000;
+	font-size:13px;
+}
+tr.total{
+	font-size:16px;
+	line-height:20px;
+	font-weight:bold;
+	padding:4px;
+	height:40px;
+}
+
+thead{
+	background:#444;
+}
+td, th{
+	padding-left:10px;
+	line-height:40px;
+}
+table .payable{
+	font-size:20px;
+	background:#559900;
+	font-weight:bold;
+	height:40px;
+}
+.balance{
+	font-size:14px;
+}
+memberavatar{
+	float:left;
+	margin-right:10px;
+}
+memberavatar img{
+	width:35px;
+}
+select.arrival{
+	float:right;
+	margin-top:10px;
+}
+button#confirm{
+	padding: 10px 30px;
+	font-size: 18px;
+	margin: 20px 0px 20px 20px;
+	float:right;
+}
+div.checkboxes {
+width: 227px;
+height: 40px;
+margin-top: 28px;
+float: left;
+}
+div.reminder {
+position: absolute;
+margin-top: 112px;
+text-align: right;
+width: 47%;
+color:#999;
+}

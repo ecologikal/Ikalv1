@@ -1,0 +1,1542 @@
+#quickpost{
+	position:fixed;
+	left:77px;
+	top:50px;
+	width:150px;
+	height:30px;
+	z-index:1000;
+}
+
+/**** LOGIN ***/
+#checkboxes{
+	float:left;
+	width:200px;
+}
+#checkboxes label{
+	display:block;
+}
+#login_form {
+
+    font-size: 13px;
+    line-height: 21px;
+    padding: 15px;
+}
+#fields input{
+	width:185px;
+}
+#login_form_remember_session{
+	clear:both;
+}
+#login_form a{
+	float:right;
+	margin-right:5px;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+#login_form input, input, textarea{
+
+	height:15px;
+	font-size:13px;
+	color:#aaa;
+	padding:10px;
+	margin:7px 0;
+	background:#e6e6e6;
+	text-shadow:1px 1px 0 #eee;
+}
+/*** MENU ***/
+#scroll-pane{
+
+	overflow:auto;
+}
+#mainmenu{
+	display:block;
+	width:55px;
+	background:#ccc;
+	position:fixed;
+	left:0px;
+	top:50px;
+	z-index:1000;
+	padding:0 7px;
+	border-radius:0 0px 10px 0;
+}
+
+div.opener{
+	cursor:pointer;
+}
+.icon.pointer{
+	cursor:pointer;
+}
+#mainmenu .icon:hover{
+/**	opacity:1;
+	transition:opacity 0.2s ease-in;
+	-moz-transition:opacity 0.2s ease-in;
+	-webkit-transition:opacity 0.2s ease-in; **/
+}
+#mainmenu .icon{
+	display:block;
+	width:55px;
+	height:54px;
+	margin:8px 0;
+	background: url("images/iconsmenu.png");
+	float:left;
+/**	opacity:0.3;**/
+}
+#profile_btn.icon{
+	background-position:-60px 0px;
+}
+#flower_btn.icon{
+	background-position:-60px -55px;
+}
+#stream_btn.icon{
+	background-position:-60px -112px;
+}
+#gallery_btn.icon{
+	background-position:-60px -167px;
+}
+#game_btn.icon{
+	background-position:-60px -216px;
+}
+#travels_btn.icon{
+	background-position:-60px -269px;
+}
+#events_btn.icon{
+	background-position:-60px -324px;
+}
+#projects_btn.icon{
+	background-position:-60px -383px;
+}
+
+#profile_btn.icon:hover{
+	background-position:0px 0px;
+}
+#flower_btn.icon:hover, #flower_btn{
+	background-position:0px -55px;
+}
+#stream_btn.icon:hover{
+	background-position:0px -112px;
+}
+#gallery_btn.icon:hover{
+	background-position:0px -167px;
+}
+#game_btn.icon:hover{
+	background-position:0px -216px;
+}
+#travels_btn.icon:hover{
+	background-position:0px -269px;
+}
+#events_btn.icon:hover{
+	background-position:0px -324px;
+}
+#projects_btn.icon:hover{
+	background-position:0px -383px;
+}
+
+
+
+#copy {
+    bottom: 0;
+    font: 300 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    text-align: right;
+	margin-right:20px;
+}
+#copy a {
+    color: #fff;
+}
+#overlay{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.8);
+	display:block;
+	z-index:100000;
+	position:fixed;
+	top:0;
+	right:0;
+	display:none;
+}
+/*** FLOWER **/
+#flowercontainer {
+    background: none repeat scroll 0 0 #CCCCCC;
+    display: none;
+    left: 66px;
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    width: 250px;
+    z-index: 100;
+}
+#title{
+	background: none repeat scroll 0 0 #222222;
+    border-bottom: 4px solid #27A6DE;
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+
+flower{
+	font-family: "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+flower div {
+display:none;
+margin-top: 10px;
+margin-left: 11px;
+width: 300px;
+float: left;
+background: #ddd;
+}
+flower path{
+	cursor:pointer;
+}
+flower div skill{
+	display:none;
+}
+flower div span#petalName{
+	padding-left:40px;
+}
+#petalName:hover{
+	cursor:pointer;
+}
+petalicon, .iconsmall.petal{
+
+	background:url("images/icons_sprite.png") no-repeat left;
+	height: 28px;
+	margin-left: 4px;
+	margin-top: 3px;
+	position: absolute;
+	width: 30px;
+}
+.iconsmall.petal.p1{
+	background-position: -18px -101px;
+}
+.iconsmall.petal.p2{
+	background-position: -17px -76px;
+}
+.iconsmall.petal.p3{
+	background-position:-17px 1px;
+}
+.iconsmall.petal.p4{
+	background-position: -45px -25px;
+}
+.iconsmall.petal.p5{
+	background-position: -18px -25px;
+}
+.iconsmall.petal.p6{
+	background-position: -18px -51px;
+}
+.iconsmall.petal.p7{
+	background-position: -45px 2px;
+}
+.iconsmall.petal.p1:hover, li.as-result-item.active .iconsmall.petal.p1{
+	background-position: -75px -101px;
+}
+.iconsmall.petal.p2:hover, li.as-result-item.active .iconsmall.petal.p2{
+	background-position: -75px -76px;
+}
+.iconsmall.petal.p3:hover, li.as-result-item.active .iconsmall.petal.p3{
+	background-position:-73px 1px;
+}
+.iconsmall.petal.p4:hover, li.as-result-item.active .iconsmall.petal.p4{
+	background-position: -102px -25px;
+}
+.iconsmall.petal.p5:hover, li.as-result-item.active .iconsmall.petal.p5{
+	background-position: -73px -25px;
+}
+.iconsmall.petal.p6:hover, li.as-result-item.active .iconsmall.petal.p6{
+	background-position: -74px -51px;
+}
+.iconsmall.petal.p7:hover, li.as-result-item.active .iconsmall.petal.p7{
+	background-position: -101px 2px;
+}
+flower div.building petalicon{
+	background-position: -75px -101px;
+}
+flower div.communitygov petalicon{
+	background-position: -75px -76px;
+}
+flower div.finance petalicon{
+	background-position:-73px 1px;
+}
+flower div.land petalicon{
+	background-position: -102px -25px;
+}
+flower div.culture petalicon{
+	background-position: -73px -25px;
+}
+flower div.tools petalicon{
+	background-position: -74px -51px;
+}
+flower div.health petalicon{
+	background-position: -101px 2px;
+}
+flower div.building #petalName, flower div.construction skill grade{
+	background:#ff3333;
+	color:#fff;
+}
+flower div.communitygov #petalName , flower div.communitygov skill grade{
+	background:#ff9933;
+	color: #fff;
+}
+flower div.land #percSkills{
+	color:#222;
+}
+flower div.finance #petalName, flower div.finance skill grade{
+	background:#FFE91D;
+	color:#222;
+}
+flower div.finance #percSkills{
+	color:#222;
+}
+flower div.land #petalName, flower div.land skill grade{
+	background:#A4DE00;
+	color:#222;
+}
+flower div.culture #petalName, flower div.culture skill grade{
+	background:#33cccc;
+	color: #fff;
+}
+flower div.tools #petalName, flower div.tools skill grade{
+	background:#403BDC;
+	color: #fff;
+}
+flower div.health #petalName, flower div.health skill grade{
+	background:#cc3399;
+	color: #fff;
+}
+#petalName{
+	font-size:16px;
+	font-weight:bold;
+	padding:7px;
+	display:block;
+	background:#333;
+}
+#percSkills {
+    color: #FFFFFF;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 245px;
+    margin-top: -63px;
+    padding: 7px;
+    position: absolute;
+}
+#noSkills{
+	display:block;
+	padding:7px;
+	background:#000;
+	font-size:11px;
+}
+#hide{
+	position:absolute;
+	
+	margin:-22px 5px 0 0;
+	margin-left:255px;
+	font-weight:bold;
+	font-size:12px;
+}
+#hide:hover{
+	cursor:pointer;
+	color:#ccc;
+}
+#showreferences{
+	color:#3399ff;
+
+	font-weight:bold;
+	font-size:11px;
+	line-height:20px;
+	float:right;
+}
+#showreferences:hover{
+	cursor:pointer;
+}
+
+skill {
+
+
+    color: #222222;
+    display: block;
+    padding:10px;
+    width: 280px;
+}
+skill name {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px 0 10px 0;
+    clear: both;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 7px;
+
+}
+skill grade {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 230px;
+    margin-top: -30px;
+    padding: 3px 7px;
+    position: absolute;
+	border-radius: 10px 0 10px 0;
+}
+skill description{
+	display:block;
+	padding:10px 10px 5px 10px;
+	font-size:12px;
+}
+skill reference {
+    display: block;
+    margin-left: 52px;
+    min-height: 50px;
+    width: 81%;
+margin-top:10px;
+}
+skill #gradeform{
+	margin:10px;
+	width:100%;
+	line-height:14px;
+	font-size:14px;
+}
+skill button{
+	display:block;
+	clear:both;
+	margin:10px;
+	height:30px;
+	line-height:25px;
+	text-align:center;
+	border-radius:10px 0;
+}
+skill select, skill textarea{
+	width:260px;
+	margin:5px 0;
+}
+skill #gradeform button{
+	margin:10px 0px;
+}
+creator memberavatar{
+	position:absolute;
+}
+div.element:hover membernametooltip{
+	display:block;
+}
+membernametooltip{
+
+	position:absolute;
+	background:#333;
+	height:14px;
+	padding:3px 6px;
+	margin-top:-30px;
+	margin-left:-40px;
+	font-size:10px;
+	clear:both;
+	font-weight:bold;
+}
+membernametooltip:after{
+	display:block;
+	width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+
+      border-top: 20px solid #f00;
+}
+avatar img {
+    box-shadow: 1px 1px 2px #555555;
+    margin: 2px 0 0 2px;
+}
+reference userid{
+	display:none;
+}
+reference username {
+    background: none repeat scroll 0 0 #888888;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+	border-radius: 0 0 8px 0;
+}
+reference description{
+	display:block;
+	font-size:10px;
+	padding:6px;
+}
+petaltooltip{
+	width:200px;
+	height:100px;
+	background:#000;
+	position:absolute;
+}
+points{
+	position:relative;
+	display:block;
+	margin-left:-75px;
+
+}
+actionpoints, reactionpoints {
+
+    border: 2px solid #FFFFFF;
+
+    box-shadow: 0 0 2px #000000;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -20px;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+	
+}
+actionpoints{
+	border-radius:0px 0px 7px 7px;
+	background:#27A6DE;
+	margin-top:25px;
+}
+reactionpoints{
+	border-radius:7px 7px 0 0;
+	background:#EC2487;
+	margin-top:5px;
+}
+path:hover{
+	cursor:pointer;
+}
+refgrade{
+	font-size:11px;
+	background: none repeat scroll 0 0 #FFFFFF;
+
+    box-shadow: 1px 1px 2px #555;
+    float: right;
+    font-weight: bold;
+    margin-left: 193px;
+    margin-top: -45px;
+    padding: 3px;
+    position: absolute;
+	border-radius: 5px 0 5px 0;
+}
+/** LEFTBAR **/
+leftbar {
+    float: left;
+	position:fixed;
+    width: 330px;
+    z-index: 1000;
+}
+leftbar div.container{
+	background: none repeat scroll 0 0 #ccc;
+    color: #555;
+    display: block;
+    font-size: 13px;
+    width:250px;
+	position:fixed;
+	left:69px;
+	top:50px;
+
+	box-shadow:0 0 4px #000;
+}
+#containercontent {
+padding: 0 11px;
+font-size: 11px;
+line-height: 15px;
+}
+#streamcontainer, #gallerycontainer, #gamecontainer, #travelscontainer, #projectscontainer, #eventscontainer {
+   display:none;
+}
+#streamcontainer p{
+	margin-left:40px;
+}
+#streamcontainer .points{
+	font-size:15px;
+	font-weight:bold;
+	text-shadow:1px 1px 0 #eee;
+	color:#888;
+	float:right;
+}
+menucontents{
+	dislpay:block;
+}
+
+#flowercontainer fields div {
+padding: 2px 5px;
+z-index: 1000000;
+
+}
+span.perc{
+	float:right;
+	font-size:11px;
+	color:#333;
+}
+span.skills{
+	float:right;
+	font-size:10px;
+	color:#aaa;
+}
+
+#flowercontainer fields div:hover{
+	color:#000;
+	text-shadow:none;
+	padding:2px;
+	width:220px;
+	padding-right:5px;
+	cursor:pointer;
+}
+#flowercontainer fields .petalicon{
+	position:relative;
+	float:left;
+	margin-left:-1000000px;
+}
+#profilecontainer name {
+    background:#222;
+	border-bottom:4px solid #27A6DE;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+profilepic {
+	width: 180px;
+	min-height: 100px;
+	background: #444;
+	border:4px solid #27A6DE;
+	box-shadow: 0 0 4px #000;
+	display: block;
+	margin: 8px auto;
+}
+profilepic img{
+	border:10px solid #222;
+	margin-bottom:-3px;
+}
+
+#email div.icon {
+    background-position: -129px -86px;
+}
+#telephone div.icon {
+    background-position: -129px -163px;
+}
+#sex div.icon {
+    background-position: -129px -121px;
+}
+#dob div.icon {
+    background-position: -129px -8px;
+}
+#country div.icon {
+	background:none;
+}
+#country div.icon img{
+	margin-left:-10px;
+}
+#languages div.icon {
+    background-position: -129px -229px;
+}
+bar{
+	display:block;
+	padding:7px;
+	font-size:11px;
+	background:#222;
+	height:20px;
+}
+#profilecontainer #hide{
+	margin-top:-32px;
+	position:absolute;
+	color:#ddd;
+
+}
+#profilecontainer #hide:hover{
+	color:#ccc;
+}
+hello{
+	float:left;
+	font-size:30px;
+	margin:0 20px 10px 0px;
+	font-weight:bold;
+}
+#profilecontainer h1{
+	font-weight:bold;
+	text-align:left;
+	margin:0;
+	font-size:16px;
+
+}
+
+buttons {
+    height: 30px;
+    margin-left: 292px;
+    position: absolute;
+    top: 73px;
+    width: 40px;
+    z-index: 1;
+}
+buttons button {
+    border-radius: 7px 0 7px 0;
+    float: left;
+    height: 30px;
+    margin-bottom: 7px;
+    text-indent: -10000px;
+    width: 30px;
+}
+/** THE GAME **/
+#gamecontainer #gamediv{
+	
+}
+#gamediv img, #gamediv .petalicon{
+	float:left;
+}
+#gamediv h3{
+	line-height:10px;
+}
+
+
+/*** RIGHTBAR ***/
+rightbar {
+    left: 980px;
+    padding: 0 20px;
+    position: fixed;
+    top: 50px;
+    width: 250px;
+	overflow:auto;
+	padding-right:0;
+	padding-top:0;
+}
+rightbar h3{
+	background:#222;
+	border-bottom:4px solid #27A6DE;
+	position:relative;
+	padding:5px 10px;
+	margin-top:0;
+}
+friends, scs, projects {
+display: block;
+width: 100%;
+min-height: 50px;
+}
+/**                                     
+	PLUGINSPLUGINS		PLUGINS         PLUGINS       PLUGINS		PLUGINSPLUGINS			PLUGINS	  PLUGINS  		PLUGINS		PLUGINSPLUGINS
+	PLUGINS		PLUGINS	PLUGINS         PLUGINS       PLUGINS	PLUGINSPLUGINSPLUGINS		PLUGINS   PLUGINSPL		PLUGINS	PLUGINS
+	PLUGINS		PLUGINS	PLUGINS         PLUGINS       PLUGINS	PLUGINS			            PLUGINS   PLUGINSPLUGINSPLUGINS PLUGINS
+	PLUGINS		PLUGINS	PLUGINS         PLUGINS	      PLUGINS	PLUGINS		PLUGINSPLUGINS  PLUGINS   PLUGINS	PLUGINSPLUG	PLUGINS
+	PLUGINSPLUGINS      PLUGINS         PLUGINS		  PLUGINS	PLUGINS			PLUGINS     PLUGINS   PLUGINS	   PLUGINSP		PLUGINSPLUGINS
+	PLUGINS             PLUGINSPLUGINS	PLUGINSPLUGINSPLUGINS	PLUGINSPLUGINSPLUGINS       PLUGINS   PLUGINS		PLUGINSP		PLUGINSPLUGINS
+	PLUGINS             PLUGINSPLUGINS	  PLUGINSPLUGINS		  	PLUGINSPLUGINS          PLUGINS   PLUGINS		PLUGINS	PLUGINSPLUGINSPLUGINS
+
+
+**/
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background:#111;
+
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #fff;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+	border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color: #fff;
+	border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color: #fff;
+	border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: rgb(25,25,25);
+	border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: rgb(25,25,25);
+	border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: rgb(25,25,25);
+	border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background:#222;
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+		border-bottom-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_top #tiptip_arrow_inner { 
+		border-top-color: rgba(20,20,20,0.92);
+	}
+}
+
+/**** GALLERY ****/
+/** GALLERY **/
+#gallery {
+}
+#gallery  #picture:hover {
+}
+#gallery #comments{
+    width:320px;
+    float:left;
+    border-radius:5px;
+    border:none;
+    margin-top:5px;
+}
+#picture {
+	float: left;
+	padding: 0.9px;
+	box-shadow: none;
+	margin: 2px;
+	text-align: center;
+	vertical-align: middle;
+	border: 3px;
+}
+#picture_details{
+    margin-top:5px;
+    width:170px;
+    float:right;
+    background:#eee;
+    
+    padding:7px;
+    border-radius:10px;
+}
+#picture_description{
+    padding:3px;
+    color:#777;
+    font-size:10px;
+    margin-bottom:3px;
+}
+
+#picture_date{
+    font-size:9px;
+    float:right;
+    font-style:italic;
+    color:#bbb;
+}
+#show_more_pictures{
+    float:left;
+}
+#pager{
+    clear:both;
+}
+div#delete {
+    background:#222;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    height: 15px;
+    margin-top: 0px;
+    margin-left:60px;
+    padding: 2px;
+    position: absolute;
+    width: 15px;
+    z-index: 1000;
+    display:none;
+}
+#delete:hover{
+    background:#000;
+    background:rgba(0,0,0,.7);
+}
+div.text{
+    display:none;
+    padding:3px;
+    background:#222;
+    color:#fff;
+    font-size:10px;
+    margin-left:17px;
+    margin-top:-2px;
+    height:14px;
+    position:absolute;
+}
+#delete:hover .text{
+    display:block;
+}
+#delete span{
+    margin:0;
+    padding:0;
+}
+#picture:hover #delete{
+    display:block;
+}
+#pager.singlepic{
+    position:absolute;
+    width:515px;
+}
+#pager #next{
+    float:right;
+    width:250px;
+    height:200px;
+    vertical-align:center;
+    margin-right:1px;
+}
+#pager #back{
+    float:left;
+    width:250px;
+    height:200px;
+    vertical-align:center;
+    margin-left:10px;
+}
+#pager div div{
+    background:url("images/tn3.png");
+    width:30px;
+    height:31px;
+    margin-top:9px;
+    border-radius:5px;
+    overflow:hidden;
+}
+#pager #back:hover .backbutton{
+    display:block;
+}
+#pager #next:hover .nextbutton{
+    display:block;
+}
+#pager #back .backbutton{
+    background-position:-4px -39px;
+    display:none;
+}
+#pager #next .nextbutton{
+    background-position:-39px -39px;
+    float:right;
+    display:none;
+}
+#pager #back .backbutton:hover{
+    background-position:-4px -102px;
+}
+#pager #next .nextbutton:hover{
+    background-position:-39px -102px;
+}
+#pager div{
+    float:left;
+
+}
+div.fileupload-content ui-widget-content ui-corner-bottom{
+    font-size:10px;
+}
+#loadpics{
+    padding:10px 20px;
+	position:absolute;
+	right:0;
+	top:0px;
+	background: -moz-linear-gradient(center top , #FEFEFE, #D9D9D9) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.13, #FEFEFE),
+	    color-stop(0.57, #D9D9D9)
+	);
+    border-color:#bbb #bbb;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+    font-size: 12px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+/*** 
+	MEMBERPROFILE
+**/
+span.country form input{
+	width:100px;
+}
+span.editable{
+	
+}
+span.editable span:hover{
+	cursor:pointer;
+	background:#eee;
+}
+#profileheader {
+background: #222;
+width: 100%;
+height: 250px;
+overflow: hidden;
+border: 1px solid #CCC;
+box-shadow: 0 0 10px #aaa;
+}
+#profileheader img{
+	width:100%;
+}
+#profileheader name {
+position: absolute;
+font-family: Helvetica Neue;
+font-size: 40px;
+padding: 10px 20px;
+color: white;
+font-weight: bold;
+text-shadow: 1px 1px 2px black;
+font-weight: bold;
+letter-spacing: -2px;
+}
+/** Buttons
+**/
+#profileheader #buttons{
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+#gallery{
+	z-index: 10000000;
+	position: absolute;
+	margin-top: -76px;
+	background: rgba(0, 0, 0, .5ç);
+	width: 656px;
+	height: 70px;
+}
+#gallery button{
+	margin-top:-20px;
+	float:right;
+}
+#bondtype{
+	display:none;
+	margin-top:-3px;
+	margin-left:10px;
+	z-index:1000;
+	position:relative;
+}
+#bondtype ul{
+	padding:0;
+	margin:0;
+}
+#bondtype ul li {
+list-style-type: none;
+font-size: 10px;
+font-weight:bold;
+background: #444;
+border-bottom:1px solid #555;
+border-right:1px solid #444;
+padding: 7px 12px;
+color:#fff;
+}
+#bondtype ul li:hover{
+	background:#666;
+	cursor:pointer;
+	transition:background-color 0.2s ;
+	-webkit-transition:background-color 0.2s ;
+}
+#profileheader #reactionpoints {
+position: absolute;
+top: 17px;
+right: 13px;
+padding: 7px 15px;
+background: #87B800;
+color: white;
+font-family: Helvetica Neue;
+font-weight: bold;
+font-size: 24px;
+text-shadow: 1px 1px 1px #777;
+border-radius: 0px 0 0px 10px;
+box-shadow: 1px -1px 4px #aaa;
+border: 1px solid #87CC00;
+-moz-border: 1px solid #87CC00;
+-webkit-border: 1px solid #87CC00;
+}
+#reactionpoints:hover, #profileheader img:hover{
+	cursor:pointer;
+}
+
+#profilecontent{
+	margin-top:17px;
+	background:#222;
+	padding:15px;
+}
+#profilecontent.main{
+	min-height:400px;
+}
+#profilecontent fields{
+	width:350px;
+	font-family:AllerRegular;
+
+}
+
+#aboutme{
+	color:#ddd;
+	font-size:14px;
+	margin-left:25px;
+	width:350px;
+	text-shadow:1px 1px 2px #000;
+}
+fields div.icon {
+    background: url("images/iconsmenu.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 20px;
+    margin-left: -13px;
+    width: 6px;
+}
+fields div:hover span.skills{
+	color:#333;
+}
+fields {
+    display: block;
+    line-height: 24px;
+	text-indent:5px;
+
+}
+#country div.flag img{
+	margin-left:-17px;
+	margin-top:-6px;
+}
+fields div {
+    margin-bottom: 3px;
+    padding: 2px 14px;
+    text-shadow: 1px 1px 0 #000;
+	color:#ccc;
+	font-size: 14px;
+	min-height:25px;
+}
+fields.editmode div:hover{
+	background:#292929;
+}
+fields.editmode div.editicon{
+	float:right;
+}
+#profilecontent h3{
+	width: 100%;
+	border-bottom: 4px solid #333;
+	line-height: 35px;
+	margin-top:0;
+}
+button.green.update {
+    margin-left: 25px;
+}
+button.edit{
+	text-indent: 20px;
+	margin-left: -20px;
+	float: left;
+	position: relative;
+	margin-top: -19px;
+}
+#profilecontent #bonds {
+width: 250px;
+position: absolute;
+top: 530px;
+margin-left: 370px;
+}
+#profilecontent #mylocation{
+	position:absolute;
+	margin-left:370px;
+	top:297px;
+	width:250px;
+}
+#locationmap{
+	display:block;
+	width:250px;
+	height:150px;
+}
+.trips{min-height:415px;}
+.trips button{
+	float:right;
+}
+.trips h3 button{
+	margin-top:-5px;
+}
+#tripform{
+	margin-left: 361px;
+	width: 250px;
+}
+#tripform input{
+	width:240px;
+	color:#888;
+}
+#tripform .watermark{
+	color:#999 !important;
+}
+#tripform textarea{
+	max-width:240px;
+	width:240px;
+	height:80px;
+}
+#tripform input.as-input{
+	text-shadow:none;
+	width: 225px;
+}
+input#address{
+	width: 242px;
+	margin-left: 9px;
+	margin-top: -2px;
+}
+#map { float:left; width:620px; height:350px; }
+#mylocation .address{
+	font-size:10px;
+	line-height:20px;
+	font-style:italic;
+	text-align:right;
+}
+#bonds .viewall{
+	font-size:12px;
+	float:right;
+}
+span.level{
+	padding: 0 14px;
+	background: #090;
+	color: white;
+	font-size: 10px;
+	line-height: 27px;
+	position: absolute;
+	border-radius: 4px;
+	display: block;
+	height: 22px;
+	line-height: 20px;
+	margin-top: -24px;
+	margin-left: 103px;
+	box-shadow: 0 0 3px #000;
+}
+#langadd{
+	margin-left:12px;
+}
+/** SKILLS LIST
+
+border-left: 1px solid #333;
+border-bottom: 1px solid #444;
+**/
+button.green.addfirstskill{
+	position: absolute;
+	width: 312px;
+	height: 249px;
+	font-size: 40px;
+	line-height: 71px;
+	top: 54px;
+	z-index: 16777271;
+}
+div.petalslist {
+display: block;
+float: right;
+width: 318px;
+min-height: 160px;
+margin-left: 886px;
+padding: 10px;
+position: absolute;
+top: 0;
+z-index:9;
+}
+div.petalbuttons {
+width: 328px;
+height: 45px;
+padding-bottom: 275px;
+position: relative;
+}
+#slider {
+width: 300px;
+background: white;
+height: 7px;
+border-radius: 10px;
+background: #333;
+border: 1px solid #393939;
+margin:10px;
+}
+.sliderlabel{
+	font-size: 12px;
+	color: #AAA;
+	text-indent: 10px;
+}
+.sliderlabel span.value{
+	display: block;
+	margin-top: -5px;
+	padding: 3px 6px;
+	background: #937;
+	color: white;
+	font-weight: bold;
+	margin-right: 3px;
+	float: right;
+	border-radius: 0 0 2px 5px;
+}
+#skillslist button{
+	float:right;
+}
+#skillslist textarea {
+background: #444;
+border: none;
+width: 290px;
+height: 80px;
+margin: 10px 5px;
+max-width: 290px;
+padding:10px;
+color:#999;
+font-size:13px;
+text-shadow:1px 1px 1px #333;
+}
+/** FLOWER **/
+#overview{
+	font-size:16px;
+	font-weight:bold;
+}
+#overview #totalskills{
+	position:absolute;
+	top:55px;
+	padding:10px;
+	background:black;
+	border-radius:10px;
+	z-index:100;
+}
+#overview #grade{
+	position:absolute;
+	top:55px;
+	margin-left:255px;
+	padding:10px;
+	background:black;
+	border-radius:10px;
+	z-index:100;
+}
+button.green.reference{
+	float:right;
+	font-size:10px;
+	margin:10px 0 15px 0;
+}
+#refslider {
+width: 257px;
+height: 7px;
+border-radius: 15px;
+display: block;
+margin-bottom: 10px;
+background: #555;
+border: 2px solid #333;
+}
+
+.hintref {
+font-size: 11px;
+float: right;
+margin-right: 10px;
+margin-top: 3px;
+color: white;
+font-family: AllerRegular;
+color:#666;
+padding: 3px 13px;
+border-radius:0 5px;
+
+}
+skill span.value {
+float: right;
+margin: 2px 0px 6px 0;
+font-size: 12px;
+font-weight: bold;
+color:#444;
+padding: 3px 8px;
+margin-right: 5px;
+border-radius: ;
+border-radius: 7px 0;
+}
+name .icon{
+	margin-top:2px;
+}
+#reference {
+border: 2px solid #333;
+width: 245px;
+max-width: 245px;
+margin-left: 6px;
+background: #555;
+padding: 10px;
+color: #CCC;
+text-shadow: -1px 1px 2px black;
+}
+reference avatar img{
+	width:35px;
+}
+#flower {
+z-index:10;
+height: 250px;
+margin-left: -27px;
+width: 300px;
+padding-bottom: 24px;
+position: absolute;
+top: 35px;
+left: 932px;
+}
+#flower h3{
+position: absolute;
+top: -35px;
+text-align: left;
+width: 100%;
+border-bottom: 4px solid #27A6DE;
+line-height: 35px;
+font-family:Lucida Sans;
+font-size:17px;
+font-weight:normal;
+}
+div.get{
+	display:none;
+}
+button.addskill{
+	float:right;
+}
+.iconsmall.petal {
+width: 28px;
+height: 26px;
+margin-top: -6px;
+float: left;
+margin-left: -11px;
+margin-right: 8px;
+position:relative;
+}
+/** My GALLERY **/
+div.albumpics {
+height: 61px;
+font-size: 15px;
+text-align: center;
+background: #292929;
+margin-top: 10px;
+line-height: 61px;
+padding: 8px;
+}
+div.picthumb{
+	float:left;
+	width:61px;
+	height:61px;
+}
+.gallery button{
+	float:right;
+}
+button.addalbum{
+	text-indent: 20px;
+	margin-top: -18px;
+	margin-right: -18px;
+}
+.album button{
+	padding:0;
+}
+.album button span{
+	position:relative;
+	height:16px;
+}
+.gallery .albuminfo {
+width: 314px;
+margin-left: 148px;
+background: #333;
+padding: 10px 12px 47px;
+position: fixed;
+z-index: 100;
+top: 40%;
+box-shadow: 0 0 160px #000;
+height: 175px;
+}
+div.albuminfo input, div.albuminfo textarea {
+width: 289px;
+}
+div.albuminfo textarea{
+	height:40px;
+}
+.albuminfo h4{
+	margin-top:5px;
+	
+}
+.nopics{
+	float: right;
+	text-indent: 17px;
+	line-height: 26px;
+	font-size: 10px;
+	margin-top: -7px;
+	margin-right: 0;
+	height: 23px;
+	margin-left:10px;
+}
+.name h4{
+	margin-bottom:0;
+}
+.album .description{
+	padding: 10px 0;
+	font-size: 13px;
+	color: #999;
+	width: 606px;
+
+}
+
+.picturedetails textarea {
+width: 230px;
+height: 70px;
+margin-top: -0.9px;
+margin-bottom: 0;
+}
+.picturedetails span.delete {
+position: relative;
+float: left;
+margin-left: -14px;
+}
+button.saveall{
+	position:fixed;
+	top:10px;
+	right:10px;
+}
+.picturedetails button{
+	float:right;
+}
+.picturedetails img{
+	float:left;
+}
+
+div.picturecontainer {
+margin-left: 120px;
+width: 415px;
+}
+div.image{
+	margin-bottom:5px;
+}
+div.overlay{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.3);
+}

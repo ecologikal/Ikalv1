@@ -1,0 +1,55 @@
+/** meSSAGES **/
+textarea#sendmessage {
+width: 469px;
+padding: 10px;
+border: 1px solid #444;
+background: #333;
+margin: 21px 0;
+min-height: 180px;
+max-width: 469px;
+color: #CCC;
+text-shadow: -1px 1px 2px black;
+font-size:13px;
+}
+textarea#sendmessagesmall {
+width: 630px;
+padding: 10px;
+border: 1px solid #444;
+background: #333;
+margin: 21px 0;
+margin-top:0;
+min-height: 50px;
+max-width: 630px;
+color: #CCC;
+text-shadow: -1px 1px 2px black;
+font-size:13px;
+}
+button.sendmessage{
+	float:right;
+}
+div.answer{
+	margin-bottom:30px;
+}
+button.sendmessagesmall{
+	margin-top:-15px;
+	float:right;
+}
+div.messageitem{
+	background:#444;
+	display:block;
+	margin-bottom:2px;
+	padding:5px;
+	min-height:36px;
+}
+span.delete{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+timeago{
+	float:right;
+	font-size:10px;
+}
+memberavatar{
+	margin-right:10px;
+}

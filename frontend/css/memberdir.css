@@ -1,0 +1,115 @@
+div.member {
+background: #333;
+border-bottom: 1px solid #444;
+padding: 11px;
+height: 49px;
+margin-bottom: 0.9px;
+}
+memberavatar {
+margin-right: 10px;
+border: 7px solid #444;
+opacity: 1;
+box-shadow: none;
+}
+div.member:hover{
+	background:#393939;
+}
+#makebond{
+	display:block;
+	height:100%;
+}
+#bondtype {
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    right: 82px;
+}
+.notification.unread{
+	background:#87B800;
+}
+#reactionpoints {
+display: block;
+float: right;
+padding: 5px 10px;
+background: #87B800;
+font-family: Helvetica Neue;
+font-weight: bold;
+text-shadow: 1px 1px 1px #777;
+color: white;
+border: 1px solid #87CC00;
+margin-top: 10px;
+right: 15px;
+position: absolute;
+}
+location {
+font-size: 13px;
+color: #999;
+font-style: italic;
+position: absolute;
+left: 78px;
+margin-top: 21px;
+text-indent: 4px;
+}
+span.requested{
+	font-size:10px;
+	font-style:italic;
+	float:right;
+	margin-left:10px;
+	line-height:26px;
+
+}
+.friendsincommon{
+	font-size: 11px;
+	font-style: italic;
+}
+button span.ui-icon{
+	margin-top:7px;
+}
+div.flower {
+width: 185px;
+background: #222;
+height: 16px;
+margin: 0;
+padding: 0;
+position: absolute;
+right: 25px;
+margin-top: -18px;
+color: #CCC;
+font-size: 10px;
+line-height: 19px;
+text-indent: 7px;
+border: 1px solid #555;
+}
+div.buttons {
+margin-left: 322px;
+position: absolute;
+margin-top: 7px;
+}
+div.flag {
+	float:left;
+}
+.flag img{
+	width:20px;
+	margin-top:5px;
+}
+.countrytext{
+	float: left;
+	line-height: 31px;
+}
+div.flower div {
+float: left;
+margin: 0;
+display: block;
+height: 16px;
+}
+name{
+	font-family:Helvetica Neue;
+	margin-top:-5px;
+}
+button.deletefriend, button.sendmessage, button.addfriend{
+height: 24px;
+}
+button.deletefriend span, button.sendmessage span, button.addfriend span{
+	margin-top: -9px;
+	margin-left: -9px;
+}

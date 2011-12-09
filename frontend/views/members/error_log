@@ -1,0 +1,1 @@
+[08-Dec-2011 10:45:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/greenble/public_html/ecologikalv1/backend/functions_member.php on line 693
